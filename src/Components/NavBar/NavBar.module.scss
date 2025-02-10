@@ -1,0 +1,55 @@
+
+nav {
+    width: 100%;
+    .navbarTop {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        #logo {
+            margin-top: 25px;
+        }
+        .navbarTopcenter {
+            margin-top: 20px;
+            margin-right: 55px;
+            position: relative;
+            #btn {
+                height: 36px;
+                width: 701px;
+                background-color: #e6e6e6;
+                border: none;
+                cursor: text;
+                padding: 10px 35px;
+                font-size: 20px;
+                border-radius: 5px;
+                &:active {
+                    border:  none;
+                }
+                &:focus {
+                    outline: none;
+                }
+            }
+            .icon {
+                position: absolute;
+                top: 8px;
+                left: 96%;
+                font-size: 20px;
+            }
+        }
+    }
+  .navbarToprLedft {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    .adminPanelIcon {
+        margin-right: 75%;
+        font-size: 50px;
+        color: #5d6059;
+    }
+    .CartIcon {
+        font-size: 50px;
+        color: #5d6059;
+    }
+  }
+}
+
