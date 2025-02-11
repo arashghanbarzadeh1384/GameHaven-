@@ -1,6 +1,6 @@
-
 nav {
     width: 100%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
     .navbarTop {
         display: flex;
         align-items: center;
@@ -35,21 +35,40 @@ nav {
                 font-size: 20px;
             }
         }
+        .navbarToprLedft {
+          width: 100%;
+          display: flex;
+          gap: 20px;
+          justify-content: center;
+          .adminPanelIcon {
+              margin-right: 75%;
+              font-size: 50px;
+              color: #5d6059;
+          }
+          .CartIcon {
+              font-size: 50px;
+              color: #5d6059;
+          }
+        }
     }
-  .navbarToprLedft {
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    .adminPanelIcon {
-        margin-right: 75%;
-        font-size: 50px;
-        color: #5d6059;
+    .navbarBotom {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        li {
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            .menuIcon {
+                font-size: 25px;
+                &:hover {
+                    color: green;
+                }
+            }
+        }
+        
     }
-    .CartIcon {
-        font-size: 50px;
-        color: #5d6059;
-    }
-  }
 }
 
