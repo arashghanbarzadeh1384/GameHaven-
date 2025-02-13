@@ -40,10 +40,21 @@ const NavBar = () => {
                   <a href="#">{item.name}</a>
                   <div className={navbarStyle.subMenu}>
                     <ul key={item.id}>
-                      {item.dropDown?.map(iitem => {
+                      {item.dropDown?.map(item => {
                         return (
-                          <li key={iitem.id}>
-                            <a href="#">{iitem.name}</a>
+                          <li key={item.id}>
+                            <a href="#">{item.name}</a>
+                            <div className={navbarStyle.subdropDown}>
+                              <ul>
+                                {item.secondDropDown?.map(item => {
+                                  return (
+                                    <li key={item.id}>
+                                      <a href="#">{item.name}</a>
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </div>
                           </li>
                         );
                       })}

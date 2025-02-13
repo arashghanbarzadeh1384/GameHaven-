@@ -48,13 +48,15 @@ nav {
           justify-content: center;
           .adminPanelIcon {
             cursor: pointer;
+            margin-top: 15px;
               margin-right: 75%;
-              font-size: 50px;
+              font-size: 45px;
               color: #5d6059;
           }
           .CartIcon {
             cursor: pointer;
-              font-size: 50px;
+            margin-top: 15px;
+              font-size: 45px;
               color: #5d6059;
           }
         }
@@ -86,11 +88,19 @@ nav {
                     visibility: visible;
                     transition: all 300ms linear;
                     a {
+                        position: relative;
                         margin-right: 25px;
                         font-size: 16px;
                         line-height: 30px;
+
                         &:hover {
                             color: rgb(0, 255, 0);
+                            +  .subdropDown {
+                                opacity: 1; 
+                                visibility: visible;
+                                transition: all 300ms linear;
+                            }
+
                         }
                     }
                 }
@@ -108,6 +118,19 @@ nav {
             width: 98%;
             box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.158);
             background-color: whitesmoke;
+            
+            .subdropDown {
+                width: 50%;
+                // height: 350px;
+                visibility: hidden;
+                opacity: 0;
+                z-index: 1;
+                position: absolute;
+                right: 200px;
+                bottom: 210px;
+                border-right: 1px solid black;
+              }
+              
         }
       
     }
