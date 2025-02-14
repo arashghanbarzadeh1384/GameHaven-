@@ -34,8 +34,8 @@ const NavBar = () => {
         <div className={navbarStyle.navbarBotom}>
           {navBarData?.map(item => {
             return (
-              <ul key={item.id}>
-                <li>
+              <ul   key={item.id}>
+                <li className={navbarStyle.hoverMenu}>
                   <AiOutlineMenu className={navbarStyle.menuIcon} />
                   <a href="#">{item.name}</a>
                   <div className={navbarStyle.subMenu}>
@@ -48,12 +48,24 @@ const NavBar = () => {
                               <ul>
                                 {item.secondDropDown?.map(item => {
                                   return (
-                                    <li key={item.id}>
+                                    <li className={navbarStyle.menuHover} key={item.id}>
                                       <a href="#">{item.name}</a>
                                     </li>
                                   );
                                 })}
                               </ul>
+                              <div>
+                                <ul>
+                                {item.thirdDropDown?.map((item) => {
+                                  return (
+                                    <li>
+                                  <a href="#">{item.name}</a>
+
+                                    </li>
+                                  )
+                                })}
+                                </ul>
+                              </div>
                             </div>
                           </li>
                         );
