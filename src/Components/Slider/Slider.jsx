@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react';
+import React, { useContext } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -10,30 +10,29 @@ import './styles.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { MyContext } from '../App/App';
 
-export default function () {
-    const {slider} = useContext(MyContext);
-  return (
-    <>
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper">
-        <SwiperSlide>{slider?.map((item) => {
-          return (
-          <img src={item.image} alt="" />
+export default function Slider() {
+    const { slider } = useContext(MyContext);
 
-          )
-        })}</SwiperSlide>
-      </Swiper>
-    </>
-  );
+    return (
+        <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+            }}
+            pagination={{
+                clickable: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper"
+        >
+            {slider?.map((item) => (
+                <SwiperSlide key={item.id}>
+                    <img src={item.image} alt="" />
+                </SwiperSlide>
+            ))}
+        </Swiper>
+    );
 }

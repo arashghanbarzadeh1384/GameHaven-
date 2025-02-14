@@ -4,23 +4,19 @@ nav {
     width: 100%;
     height: auto;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
-    background-color: whitesmoke;
-    z-index: 1100;  
-
+    background-color:  whitesmoke;
+    z-index: 1100;
     .navbarTop {
-        display: flex;
+        display: flex;  
         align-items: center;
         gap: 15px;
-
         #logo {
             margin-top: 25px;
         }
-
         .navbarTopcenter {
             margin-top: 20px;
             margin-right: 55px;
             position: relative;
-
             #btn {
                 height: 36px;
                 width: 701px;
@@ -30,12 +26,13 @@ nav {
                 padding: 10px 35px;
                 font-size: 20px;
                 border-radius: 5px;
-
+                &:active {
+                    border:  none;
+                }
                 &:focus {
                     outline: none;
                 }
             }
-
             .icon {
                 position: absolute;
                 top: 8px;
@@ -43,96 +40,107 @@ nav {
                 font-size: 20px;
             }
         }
-
-        .navbarToprLeft {
-            width: 100%;
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-
-            .adminPanelIcon, .CartIcon {
-                cursor: pointer;
-                margin-top: 15px;
-                font-size: 45px;
-                color: #5d6059;
-            }
+        .navbarToprLedft {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        .adminPanelIcon {
+            cursor: pointer;
+            margin-top: 15px;
+            margin-right: 75%;
+            font-size: 45px;
+            color: #5d6059;
+        }
+        .CartIcon {
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 45px;
+            color: #5d6059;
+        }
         }
     }
-
     .navbarBotom {
-        z-index: 1200;  
+        z-index: 10000;
         position: relative;
         display: flex;
         align-items: center;
         margin-top: 20px;
         margin-right: 20px;
-
         li {
+            
             font-size: 25px;
             display: flex;
             align-items: center;
             gap: 5px;
-
             .menuIcon {
                 font-size: 25px;
                 cursor: pointer;
-
                 &:hover {
                     color: rgb(0, 255, 0);
                 }
             }
-
             a {
                 color: black;
             }
-
             &:hover > .subMenu {
-                z-index: 1300; 
-                opacity: 1;
-                visibility: visible;
-                transition: all 300ms linear;
+                    z-index: 100000;
+                    opacity: 1; 
+                    visibility: visible;
+                    transition: all 300ms linear;
+                    a {
+                        position: relative;
+                        margin-right: 25px;
+                        font-size: 16px;
+                        line-height: 30px;
 
-                a {
-                    position: relative;
-                    margin-right: 25px;
-                    font-size: 16px;
-                    line-height: 30px;
-
-                    &:hover {
-                        color: rgb(0, 255, 0);
-
-                        &:hover + .subdropDown {
-                            z-index: 1400;
-                            display: block;
-                            transition: all 200ms linear;
+                        &:hover {
+                            color: rgb(0, 255, 0);
+                            
+                                &:hover {
+                                    +  .subdropDown {
+                                      z-index: 1000;
+                                        display: block;
+                                        transition: all 200ms linear;
+                                    }
+            
+                            
+                            }
                         }
                     }
                 }
+                
             }
-        }
-
-        .subMenu {
-            z-index: 1350; 
+            .subMenu {
+            z-index: 1;
             visibility: hidden;
             opacity: 0;
             margin: 0;
             padding: 0;
             border-radius: 0 0 10px 10px;
+            z-index: 1;
             position: absolute;
             top: 37px;
             width: 98%;
-            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.158);
             background-color: whitesmoke;
-
+            .hoverMenu {
+                background-color: red;
+            }
             .subdropDown {
                 display: none;
+                // display: block;
                 width: inherit;
                 height: 100%;
+                z-index: 1;
                 position: absolute;
                 right: 200px;
                 bottom: 1px;
                 border-right: 0.5px solid rgb(217, 217, 217);
             }
+        
+            
         }
+    
     }
-}
+} 
