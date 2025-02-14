@@ -7,7 +7,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { MyContext } from "../App/App";
 
 const NavBar = () => {
-  const navBarData = useContext(MyContext);
+  const {navbar} = useContext(MyContext);
   return (
     <>
       <nav>
@@ -32,7 +32,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className={navbarStyle.navbarBotom}>
-          {navBarData?.map(item => {
+          {navbar?.map(item => {
             return (
               <ul   key={item.id}>
                 <li className={navbarStyle.hoverMenu}>
@@ -58,7 +58,7 @@ const NavBar = () => {
                                 <ul>
                                 {item.thirdDropDown?.map((item) => {
                                   return (
-                                    <li>
+                                    <li key={item.id}>
                                   <a href="#">{item.name}</a>
 
                                     </li>

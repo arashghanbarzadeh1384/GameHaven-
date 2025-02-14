@@ -35,5 +35,11 @@
         }
       ]
     }
+  ],
+  "Slider": [
+    {
+      "id": 1,
+      "image": "https://exo.ir/image/cache/catalog/New_Template/Banners/Desktop/Slider/Gaming%20System%20slider%20pc%20v1%20copy-1600x400.jpg"
+    }
   ]
 }
