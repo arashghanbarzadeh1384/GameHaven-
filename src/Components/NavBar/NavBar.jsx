@@ -1,13 +1,10 @@
-import { useContext } from "react";
 import navbarStyle from "./NavBar.module.scss";
 import { IoSearch } from "react-icons/io5";
 import { IoPersonOutline } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
-import { AiOutlineMenu } from "react-icons/ai";
-import { MyContext } from "../App/App";
+import SubMenuNavbar from "./SubMenuNavbar/SubMenuNavbar";
 
 const NavBar = () => {
-  const {navbar} = useContext(MyContext);
   return (
     <>
       <nav>
@@ -32,50 +29,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className={navbarStyle.navbarBotom}>
-          {navbar?.map(item => {
-            return (
-              <ul   key={item.id}>
-                <li className={navbarStyle.hoverMenu}>
-                  <AiOutlineMenu className={navbarStyle.menuIcon} />
-                  <a href="#">{item.name}</a>
-                  <div className={navbarStyle.subMenu}>
-                    <ul key={item.id}>
-                      {item.dropDown?.map(item => {
-                        return (
-                          <li key={item.id}>
-                            <a href="#">{item.name}</a>
-                            <div className={navbarStyle.subdropDown}>
-                              <ul>
-                                {item.secondDropDown?.map(item => {
-                                  return (
-                                    <li className={navbarStyle.menuHover} key={item.id}>
-                                      <a href="#">{item.name}</a>
-                                    </li>
-                                  );
-                                })}
-                              </ul>
-                              <div>
-                                <ul>
-                                {item.thirdDropDown?.map((item) => {
-                                  return (
-                                    <li key={item.id}>
-                                  <a href="#">{item.name}</a>
-
-                                    </li>
-                                  )
-                                })}
-                                </ul>
-                              </div>
-                            </div>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            );
-          })}
+          <SubMenuNavbar />
         </div>
       </nav>
     </>
