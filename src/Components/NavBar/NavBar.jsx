@@ -2,7 +2,7 @@ import navbarStyle from "./NavBar.module.scss";
 import { IoSearch } from "react-icons/io5";
 import { IoPersonOutline } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
-import SubMenuNavbar from "./SubMenuNavbar/SubMenuNavbar";
+import HeaderMenu from "./HeaderMenu/Headermenu";
 
 const NavBar = () => {
   return (
@@ -29,8 +29,9 @@ const NavBar = () => {
           </div>
         </div>
         <div className={navbarStyle.navbarBotom}>
-          <SubMenuNavbar />
+        <HeaderMenu />
         </div>
+        
       </nav>
     </>
   );

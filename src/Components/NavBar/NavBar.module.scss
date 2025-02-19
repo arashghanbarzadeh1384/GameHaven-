@@ -62,8 +62,9 @@ nav {
   }
   .navbarBotom {
     z-index: 10000;
-    position: relative;
+    // position: relative;
     display: flex;
+    gap: 20px;
     align-items: center;
     margin-top: 20px;
     margin-right: 20px;
