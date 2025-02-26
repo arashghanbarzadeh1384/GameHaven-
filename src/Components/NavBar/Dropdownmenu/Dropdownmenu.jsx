@@ -19,9 +19,11 @@ const Dropdownmenu = ({ item }) => {
                       </ul>
                     );
                   })}
+                </div>
+                <div className={HeaderMneuStyle.supDown__menu2}>
                   {item.thirdDropDown?.map(item => {
                     return (
-                      <ul>
+                      <ul key={item.id}>
                         <li>
                           <a href="#">{item.name}</a>
                         </li>

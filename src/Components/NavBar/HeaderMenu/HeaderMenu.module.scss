@@ -1,5 +1,4 @@
 .header__link {
-  // position: relative;
   display: flex;
   align-items: center;
   padding: 5px;
@@ -32,7 +31,8 @@
       position: relative;
       li {
         &:hover {
-          .supDown__menu {
+          .supDown__menu,
+          .supDown__menu2 {
             display: block;
           }
         }
@@ -44,15 +44,17 @@
             color: rgb(0, 255, 0);
           }
         }
-        .supDown__menu {
-          width: 90%;
+        .supDown__menu,
+        .supDown__menu2 {
           height: 450px;
           position: absolute;
           right: 10%;
-          // background-color: red;
-          border-right: 10px solid black;
-          bottom: -120px;
+          bottom: -100px;
+
           display: none;
+        }
+        .supDown__menu2 {
+          bottom: -60px;
         }
       }
     }
