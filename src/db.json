@@ -73,5 +73,37 @@
       "id": 2,
       "image": "https://exo.ir/image/cache/catalog/New_Template/Banners/Desktop/Slider/Gaming%20Monitors%20slider%20pc%20v1%20copy-1600x400.jpg"
     }
+  ],
+  "Product": [
+    {
+      "id": 1,
+      "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
+      "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
+      "price": "599,000,000"
+    },
+    {
+      "id": 2,
+      "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
+      "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
+      "price": "599,000,000"
+    },
+    {
+      "id": 3,
+      "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
+      "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
+      "price": "599,000,000"
+    },
+    {
+      "id": 4,
+      "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
+      "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
+      "price": "599,000,000"
+    },
+    {
+      "id": 5,
+      "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
+      "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
+      "price": "599,000,000"
+    }
   ]
 }

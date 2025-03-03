@@ -5,7 +5,7 @@ import HeaderMneuStyle from "./HeaderMenu.module.scss";
 import Dropdownmenu from "../Dropdownmenu/Dropdownmenu";
 
 const HeaderMenu = () => {
-  const { navbar } = useContext(MyContext);
+  const { navbar } = useContext(MyContext); 
 
   return (
     <>
