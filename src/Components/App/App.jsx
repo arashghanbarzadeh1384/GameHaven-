@@ -4,6 +4,8 @@ import axios from "axios";
 import Slider from "../Slider/Slider";
 import MainNav from "../NavBar/MainNav/MainNav";
 import Product from "../Products/Product";
+import SaleTimer from "../SaleTimer/SaleTimer";
+import TimerSale from "../SaleTimer/TimerSale";
 
 export const MyContext = React.createContext();
 const App = () => {
@@ -38,6 +40,8 @@ const App = () => {
         <Slider />
         <MainNav />
         <Product />
+        <SaleTimer />
+        <TimerSale targetDate="2025-05-11T00:00:00" />
       </MyContext.Provider>
     </>
   );

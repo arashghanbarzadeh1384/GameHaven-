@@ -1,0 +1,19 @@
+.saleTimer {
+  margin-top: 80px;
+  position: relative;
+  img {
+    width: 95%;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  #saleTimer__title {
+    position: absolute;
+    color: whitesmoke;
+    top: -1px;
+    right: 43px;
+    font-size: 45px;
+  }
+}

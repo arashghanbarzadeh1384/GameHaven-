@@ -1,4 +1,4 @@
-h2 {
+#text {
   color: #6d6d6d;
   margin-top: 25px;
   margin-right: 18px;
@@ -19,8 +19,7 @@ h2 {
     border-radius: 12px;
     border: 1px solid rgb(205, 204, 204);
     &:hover {
-    border: 1px solid #03c03c;
-
+      border: 1px solid #03c03c;
     }
     h3 {
       text-align: center;
