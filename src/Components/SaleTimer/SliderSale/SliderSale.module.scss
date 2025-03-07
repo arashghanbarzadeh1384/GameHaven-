@@ -1,0 +1,28 @@
+.sliderSale {
+  position: relative;
+  width: 50%;
+  bottom: 423px;
+  width: 100%;
+  .card__products {
+    width: 262px;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 12px;
+    border: 5px solid rgb(205, 204, 204);
+    transition: all 300ms linear;
+    &:hover {
+      border: 5px solid #03c03c;
+    }
+    h3 {
+      text-align: center;
+      color: rgb(60, 60, 60);
+    }
+    span {
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      color: black;
+      font-weight: bold;
+    }
+  }
+}

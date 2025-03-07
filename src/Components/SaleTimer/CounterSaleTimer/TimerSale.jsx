@@ -22,8 +22,6 @@ const TimerSale = ({ targetDate }) => {
     }, 1000);
     return () => clearInterval(timer);
   }, [targetDate]);
-  // console.log(timeLeft);
-
   return (
     <>
       <div className={CounterStyle.countdowncontainer}>

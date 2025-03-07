@@ -105,5 +105,43 @@
       "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
       "price": "599,000,000"
     }
+  ],
+  "ProductSale": [
+    {
+      "id": 1,
+      "image": "https://exo.ir/image/cache/catalog/Products/Games/monster-hunter-wilds-xbox/monster-hunter-wilds-Xbox-Series-X-300x300.jpg",
+      "title": "بازی Monster Hunter Wilds - XBOX",
+      "price": "5,200,000"
+    },
+    {
+      "id": 2,
+      "image": "https://exo.ir/image/cache/catalog/Products/Games/Park-Beyond-Impossible-Edition-PS5/park-beyond-impossible-edition-ps5-300x300.jpg",
+      "title": "بازی Park Beyond: Impossible Edition - PS5",
+      "price": "8,200,000"
+    },
+    {
+      "id": 3,
+      "image": "https://exo.ir/image/cache/catalog/Products/Games/ghost-of-tsushima-ps4/Ghost-of-Tsushima-PS4-300x300.jpg",
+      "title": "بازی Ghost of Tsushima - PS4",
+      "price": "3,900,000"
+    },
+    {
+      "id": 4,
+      "image": "https://exo.ir/image/cache/catalog/Products/Games/minecraft-super-mario-edition-nintendo-switch/minecraft-super-mario-edition-nintendo-switch-300x300.jpg",
+      "title": "بازی Minecraft: Super Mario Edition  - Nintendo Switch",
+      "price": "3,600,000"
+    },
+    {
+      "id": 5,
+      "image": "https://exo.ir/image/cache/catalog/Products/Games/Resident-Evil-7-Biohazard-Gold-Edition-PS4/Resident-Evil-7-Biohazard-Gold-Edition-PS4-300x300.jpg",
+      "title": "بازی Resident Evil 7: Biohazard Gold Edition - PS4",
+      "price": "3,000,000"
+    },
+    {
+      "id": 6,
+      "image": "https://exo.ir/image/cache/catalog/Products/Games/Call-of-Duty-Black-Ops-6-PS5/Call-of-Duty-Black-Ops-6-PS5-300x300.jpg",
+      "title": "بازی Resident Evil 7: Biohazard Gold Edition - PS4",
+      "price": "5,180,000"
+    }
   ]
 }
