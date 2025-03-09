@@ -6,6 +6,8 @@ import MainNav from "../NavBar/MainNav/MainNav";
 import Product from "../Products/Product";
 import SaleTimer from "../SaleTimer/SaleTimer";
 import Benefits from "../Benefits/Benefits";
+import { Route, Routes } from "react-router";
+import RouterPage from "../Pages/RouterPage/RouterPage";
 
 export const MyContext = React.createContext();
 const App = () => {
@@ -46,12 +48,22 @@ const App = () => {
   return (
     <>
       <MyContext.Provider value={{ navbar, slider, products, productSale }}>
-        <NavBar />
-        <Slider />
-        <MainNav />
-        <Product />
-        <SaleTimer />
-        <Benefits />
+        <RouterPage />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <NavBar />
+                <Slider />
+                <MainNav />
+                <Product />
+                <SaleTimer />
+                <Benefits />
+              </>
+            }
+          />
+        </Routes>
       </MyContext.Provider>
     </>
   );

@@ -3,6 +3,7 @@ import { IoSearch } from "react-icons/io5";
 import { IoPersonOutline } from "react-icons/io5";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import HeaderMenu from "./HeaderMenu/Headermenu";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -24,14 +25,17 @@ const NavBar = () => {
             <IoSearch className={navbarStyle.icon} />
           </div>
           <div className={navbarStyle.navbarToprLedft}>
-            <IoPersonOutline className={navbarStyle.adminPanelIcon} />
-            <MdOutlineShoppingCart className={navbarStyle.CartIcon} />
+            <NavLink to="/admin">
+              <IoPersonOutline className={navbarStyle.adminPanelIcon} />
+            </NavLink>
+            <NavLink>
+              <MdOutlineShoppingCart className={navbarStyle.CartIcon} />
+            </NavLink>
           </div>
         </div>
         <div className={navbarStyle.navbarBotom}>
-        <HeaderMenu />
+          <HeaderMenu />
         </div>
-        
       </nav>
     </>
   );
