@@ -15,7 +15,7 @@ export default function SliderSale() {
         spaceBetween={0}
         navigation
         modules={[Navigation]}
-        className="mySwiper">
+        className="slider">
         {productSale?.map(item => (
           <SwiperSlide key={item.id}>
             <div className={producSaletStyle.card__products}>

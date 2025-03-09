@@ -1,0 +1,26 @@
+.root__aboute {
+  h2 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 25px;
+  }
+  .root__Benefits {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 65px;  
+    margin-top: 15px;
+    p {
+      text-align: center;
+      // margin-top: 25px;
+      color: black;
+      font-size: 18px;
+      // font-weight: bold;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}

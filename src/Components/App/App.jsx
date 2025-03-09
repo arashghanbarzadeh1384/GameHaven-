@@ -5,6 +5,7 @@ import Slider from "../Slider/Slider";
 import MainNav from "../NavBar/MainNav/MainNav";
 import Product from "../Products/Product";
 import SaleTimer from "../SaleTimer/SaleTimer";
+import Benefits from "../Benefits/Benefits";
 
 export const MyContext = React.createContext();
 const App = () => {
@@ -35,12 +36,12 @@ const App = () => {
     } catch (error) {
       console.log(error.message);
     }
-  }
+  };
   useEffect(() => {
     fethNavBar();
     fethSlider();
     fethProducts();
-    fethProductSale()
+    fethProductSale();
   }, []);
   return (
     <>
@@ -50,6 +51,7 @@ const App = () => {
         <MainNav />
         <Product />
         <SaleTimer />
+        <Benefits />
       </MyContext.Provider>
     </>
   );
