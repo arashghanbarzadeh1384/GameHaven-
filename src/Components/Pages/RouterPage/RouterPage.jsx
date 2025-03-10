@@ -1,11 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import Admin from "../Admin/Admin";
+import RouterAdim from "./RouterAdim/RouterAdim";
+
 
 const RouterPage = () => {
   return (
     <>
+        
       <Routes>
-        <Route path="/admin" element={<Admin />} />
+        <Route path="/admin/*" element={<RouterAdim />} />
       </Routes>
     </>
   );
