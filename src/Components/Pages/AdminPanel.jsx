@@ -4,34 +4,37 @@ import { MdSpaceDashboard } from "react-icons/md";
 
 const AdminPanel = () => {
   return (
-    <div className={AdmimmStyle.item__panel}>
-      <NavLink
-        to="/admin"
-        className={({ isActive }) =>
-          isActive ? AdmimmStyle.activ : AdmimmStyle.notactiv
-        }>
-        <MdSpaceDashboard className={AdmimmStyle.icoen__dashbord} />
-        داشبورد
-      </NavLink>
+    <>
+      <div className={AdmimmStyle.item__panel}>
+        <div className={AdmimmStyle.logo}>
+          <img src="../../../public/Images/logo.svg" alt="" />
+        </div>
+        <NavLink
+          to="/admin"
+          className={({ isActive }) =>
+            isActive ? AdmimmStyle.activ : AdmimmStyle.notactiv
+          }>
+          <MdSpaceDashboard className={AdmimmStyle.icoen__dashbord} />
+          داشبورد
+        </NavLink>
 
-      <NavLink
-        to="/admin/product"
-        className={({ isActive }) =>
-          isActive ? AdmimmStyle.activ : AdmimmStyle.notactiv
-        }>
-          
-        محصولات
-      </NavLink>
+        <NavLink
+          to="/admin/product"
+          className={({ isActive }) =>
+            isActive ? AdmimmStyle.activ : AdmimmStyle.notactiv
+          }>
+          محصولات
+        </NavLink>
 
-      <NavLink
-        to="/admin/user"
-        className={({ isActive }) =>
-          isActive ? AdmimmStyle.activ : AdmimmStyle.notactiv
-        }>
-        کاربران
-      </NavLink>
-    </div>
-    
+        <NavLink
+          to="/admin/user"
+          className={({ isActive }) =>
+            isActive ? AdmimmStyle.activ : AdmimmStyle.notactiv
+          }>
+          کاربران
+        </NavLink>
+      </div>
+    </>
   );
 };
 
