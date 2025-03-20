@@ -4,33 +4,84 @@
       "id": 1,
       "name": "دسته بندی",
       "dropDown": [
-        { "id": 1, "name": "اکشن" },
-        { "id": 2, "name": "ماجراجویی" },
-        { "id": 3, "name": "ورزشی" },
-        { "id": 4, "name": "نقش آفرینی" },
-        { "id": 5, "name": "استراتژی" },
-        { "id": 6, "name": "ترسناک" },
-        { "id": 7, "name": "مسابقه ای" },
-        { "id": 8, "name": "شوتر" },
-        { "id": 9, "name": "شبیه سازی" },
+        {
+          "id": 1,
+          "name": "اکشن"
+        },
+        {
+          "id": 2,
+          "name": "ماجراجویی"
+        },
+        {
+          "id": 3,
+          "name": "ورزشی"
+        },
+        {
+          "id": 4,
+          "name": "نقش آفرینی"
+        },
+        {
+          "id": 5,
+          "name": "استراتژی"
+        },
+        {
+          "id": 6,
+          "name": "ترسناک"
+        },
+        {
+          "id": 7,
+          "name": "مسابقه ای"
+        },
+        {
+          "id": 8,
+          "name": "شوتر"
+        },
+        {
+          "id": 9,
+          "name": "شبیه سازی"
+        },
         {
           "id": 10,
           "name": "پلتفرم ها",
           "secondDropDown": [
-            { "id": 1, "name": "کامپیوتر" },
-            { "id": 2, "name": "پلی‌استیشن " },
-            { "id": 3, "name": "نینتندو " },
-            { "id": 4, "name": "موبایل " }
+            {
+              "id": 1,
+              "name": "کامپیوتر"
+            },
+            {
+              "id": 2,
+              "name": "پلی‌استیشن "
+            },
+            {
+              "id": 3,
+              "name": "نینتندو "
+            },
+            {
+              "id": 4,
+              "name": "موبایل "
+            }
           ]
         },
         {
           "id": 11,
           "name": "بر اساس ویژگی‌ها ",
           "thirdDropDown": [
-            { "id": 1, "name": "چندنفره " },
-            { "id": 2, "name": "آنلاین" },
-            { "id": 3, "name": "آفلاین" },
-            { "id": 4, "name": "رایگان" }
+            {
+              "id": 1,
+              "name": "چندنفره "
+            },
+            {
+              "id": 2,
+              "name": "آنلاین"
+            },
+            {
+              "id": 3,
+              "name": "آفلاین"
+            },
+            {
+              "id": 4,
+              "name": "رایگان"
+            }
           ]
         }
       ]
@@ -142,6 +193,22 @@
       "image": "https://exo.ir/image/cache/catalog/Products/Games/Call-of-Duty-Black-Ops-6-PS5/Call-of-Duty-Black-Ops-6-PS5-300x300.jpg",
       "title": "بازی Resident Evil 7: Biohazard Gold Edition - PS4",
       "price": "5,180,000"
+    }
+  ],
+  "ProductStore": [
+    {
+      "id": "3491",
+      "title": "ssgsgesggew",
+      "imageUrl": "https://exo.ir/image/cache/catalog/Products/Twisted-Minds/Monitors/TM22FHD/61DSZdkFb-L-1500x1500.jpg",
+      "body": "wegewgewgewgewg",
+      "altText": "ewewgwegewewg"
+    },
+    {
+      "id": "cf3b",
+      "title": "test",
+      "imageUrl": "https://exo.ir/image/cache/catalog/Products/SAMSUNG/Monitors/Odyssey-LS28BG702EN/Odyssey-LS28BG702EN-1-300x300.jpg",
+      "body": "test",
+      "altText": "test"
     }
   ]
 }

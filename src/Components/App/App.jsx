@@ -16,15 +16,15 @@ const App = () => {
   const [products, setProducts] = useState(null);
   const [productSale, setProductSale] = useState(null);
   const fethSlider = async () => {
-    const sliderData = await axios.get("http://localhost:3000/Slider");
+    const sliderData = await axios.get("http://localhost:3001/Slider");
     setSlider(sliderData.data);
   };
   const fethNavBar = async () => {
-    const navBarData = await axios.get("http://localhost:3000/menu");
+    const navBarData = await axios.get("http://localhost:3001/menu");
     setNavBar(navBarData.data);
   };
   const fethProducts = async () => {
-    const productsApi = await axios.get("http://localhost:3000/Product");
+    const productsApi = await axios.get("http://localhost:3001/Product");
     try {
       setProducts(productsApi.data);
     } catch (error) {
@@ -32,7 +32,7 @@ const App = () => {
     }
   };
   const fethProductSale = async () => {
-    const productSaleApi = await axios.get("http://localhost:3000/ProductSale");
+    const productSaleApi = await axios.get("http://localhost:3001/ProductSale");
     try {
       setProductSale(productSaleApi.data);
     } catch (error) {
