@@ -15,6 +15,15 @@ const App = () => {
   const [slider, setSlider] = useState(null);
   const [products, setProducts] = useState(null);
   const [productSale, setProductSale] = useState(null);
+  const [productStore, setProductStore] = useState(null)
+  const fethproductStore = async () => {
+    try {
+      const productStoreData = await axios.get("http://localhost:3001/ProductStore")
+      setProductStore(productStoreData.data)
+    } catch (error) {
+      console.log(message.error);
+    }
+  }
   const fethSlider = async () => {
     const sliderData = await axios.get("http://localhost:3001/Slider");
     setSlider(sliderData.data);
@@ -44,10 +53,11 @@ const App = () => {
     fethSlider();
     fethProducts();
     fethProductSale();
+    fethproductStore()
   }, []);
   return (
     <>
-      <MyContext.Provider value={{ navbar, slider, products, productSale }}>
+      <MyContext.Provider value={{ navbar, slider, products, productSale, productStore }}>
         <RouterPage />
         <Routes>
           <Route

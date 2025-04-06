@@ -1,7 +1,7 @@
 {
   "menu": [
     {
-      "id": 1,
+      "id": "1",
       "name": "دسته بندی",
       "dropDown": [
         {
@@ -87,71 +87,71 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "فروشگاه"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "گیفت کارت"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "استیم"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "بتل نت"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "مقاله ها"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "تماس باما"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "درباره ما"
     }
   ],
   "Slider": [
     {
-      "id": 1,
+      "id": "1",
       "image": "https://exo.ir/image/cache/catalog/New_Template/Banners/Desktop/Slider/Gaming%20System%20slider%20pc%20v1%20copy-1600x400.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "https://exo.ir/image/cache/catalog/New_Template/Banners/Desktop/Slider/Gaming%20Monitors%20slider%20pc%20v1%20copy-1600x400.jpg"
     }
   ],
   "Product": [
     {
-      "id": 1,
+      "id": "1",
       "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
       "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
       "price": "599,000,000"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
       "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
       "price": "599,000,000"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
       "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
       "price": "599,000,000"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
       "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
       "price": "599,000,000"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "https://exo.ir/image/cache/catalog/Products/ASUS/Graphic-Card/NVIDIA/TUF-Gaming-Series/RTX-5000-Series/tuf-gaming-rtx5090-32g/asus-tuf-gaming-rtx-5090-o32g-n1-300x300.jpg",
       "title": "کارت گرافیک ASUS TUF Gaming RTX 5090 O32G",
       "price": "599,000,000"
@@ -159,56 +159,41 @@
   ],
   "ProductSale": [
     {
-      "id": 1,
+      "id": "1",
       "image": "https://exo.ir/image/cache/catalog/Products/Games/monster-hunter-wilds-xbox/monster-hunter-wilds-Xbox-Series-X-300x300.jpg",
       "title": "بازی Monster Hunter Wilds - XBOX",
       "price": "5,200,000"
     },
     {
-      "id": 2,
+      "id": "2",
       "image": "https://exo.ir/image/cache/catalog/Products/Games/Park-Beyond-Impossible-Edition-PS5/park-beyond-impossible-edition-ps5-300x300.jpg",
       "title": "بازی Park Beyond: Impossible Edition - PS5",
       "price": "8,200,000"
     },
     {
-      "id": 3,
+      "id": "3",
       "image": "https://exo.ir/image/cache/catalog/Products/Games/ghost-of-tsushima-ps4/Ghost-of-Tsushima-PS4-300x300.jpg",
       "title": "بازی Ghost of Tsushima - PS4",
       "price": "3,900,000"
     },
     {
-      "id": 4,
+      "id": "4",
       "image": "https://exo.ir/image/cache/catalog/Products/Games/minecraft-super-mario-edition-nintendo-switch/minecraft-super-mario-edition-nintendo-switch-300x300.jpg",
       "title": "بازی Minecraft: Super Mario Edition  - Nintendo Switch",
       "price": "3,600,000"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "https://exo.ir/image/cache/catalog/Products/Games/Resident-Evil-7-Biohazard-Gold-Edition-PS4/Resident-Evil-7-Biohazard-Gold-Edition-PS4-300x300.jpg",
       "title": "بازی Resident Evil 7: Biohazard Gold Edition - PS4",
       "price": "3,000,000"
     },
     {
-      "id": 6,
+      "id": "6",
       "image": "https://exo.ir/image/cache/catalog/Products/Games/Call-of-Duty-Black-Ops-6-PS5/Call-of-Duty-Black-Ops-6-PS5-300x300.jpg",
       "title": "بازی Resident Evil 7: Biohazard Gold Edition - PS4",
       "price": "5,180,000"
     }
   ],
-  "ProductStore": [
-    {
-      "id": "3491",
-      "title": "ssgsgesggew",
-      "imageUrl": "https://exo.ir/image/cache/catalog/Products/Twisted-Minds/Monitors/TM22FHD/61DSZdkFb-L-1500x1500.jpg",
-      "body": "wegewgewgewgewg",
-      "altText": "ewewgwegewewg"
-    },
-    {
-      "id": "cf3b",
-      "title": "test",
-      "imageUrl": "https://exo.ir/image/cache/catalog/Products/SAMSUNG/Monitors/Odyssey-LS28BG702EN/Odyssey-LS28BG702EN-1-300x300.jpg",
-      "body": "test",
-      "altText": "test"
-    }
-  ]
+  "ProductStore": []
 }
